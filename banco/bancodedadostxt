@@ -1,0 +1,34 @@
+DDL = Criar tabela :
+definir colunas e tipos - (atenção no serial, integer junto de sequence)
+Definir as constraints - nulo (NOT NULL), dominio (CHECK ex: sexo = "m" or sexo = "f"),
+chave (pk e unique), referencial (FK) = 
+ON DELETE ON UPDATE : 
+CASCADE =
+NO ACTION =
+SET NULL =
+Alter table
+
+
+SELECTS :
+Distinct = Elimina duplicatas
+Renomear atributos / tabelas
+WHERE : ilike, like, upper(), lower(),
+GROUP BY = Agrupar alguma tabela. (função de ligação),(Having = filtra linhas pedidas no comando)
+ORDER BY = ordenar por decrescente(do maior pro menor) ou ascendente(do menor pro maior) (uma tabela.)
+
+AGRUPAMENTOS :              FUNC JOINS:
+UNION<---------------------->FULL OUTER JOIN : 
+EXCEPT                      LEFT/RIGHT OUTER JOIN 
+INTERSECT<----------------->INNER JOIN :
+
+CRITÉRIOS DO AGRUPAMENTO
+ON
+USING
+
+
+
+SUBCONSULTAS = 
+NOT IN (SELECT) }  WHERE
+IN (SELECT)     }  WHERE
+
+*WITH 
